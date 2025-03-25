@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #111;
+            color: white;
+            padding: 20px;
+        }
+        .track {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Music Collection</h1>
+    
+    <div id="music-list">
+        <div class="track">
+            <p>Track 1 - Example</p>
+            <audio controls>
+                <source src="track1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        
+        <div class="track">
+            <p>Track 2 - Example</p>
+            <audio controls>
+                <source src="track2.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+    
+    <p>Upload your MP3 files to the GitHub repo and update this file to add more tracks.</p>
+</body>
+</html>
